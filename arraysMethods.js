@@ -23,20 +23,20 @@ arr.pop();
 arr.shift();
 
 console.log("Antes splice ", arr);
-arr.splice(1,2); //Comienza elimnar desde el elemento a a lo largo de n veces 
+arr.splice(1,2); //Comienza elimnar desde el elemento a a lo largo de n veces
 
 
 console.log("Despues splice ",arr);
 console.log(val);
 
-// Sorting an array 
+// Sorting an array
 fruit.sort();
 
 //Sorting Numbers
 
 arr2.sort( function(x,y){return y-x} );
 
-// Find 
+// Find
 function over50(num){
     return num > 50;
 }
@@ -47,3 +47,5 @@ console.log("Fruits arr: ",fruit)
 console.log("Arr2: ", arr2)
 console.log("val: ", val)
 
+console.log(typeof b)
+let b
